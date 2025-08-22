@@ -2,6 +2,10 @@
   color: #fff;
   background-color: #0a2750;
   padding: 100px 80px 215px;
+  background-image: url(../images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .recipes__title {
@@ -37,4 +41,11 @@
   line-height: 30px;
   display: flex;
   justify-content: space-between;
+}
+
+.recipes__iframes {
+  width: 560px;
+  height: 315px;
+  border: none;
+  box-sizing: border-box;
 }
