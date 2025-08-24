@@ -11,6 +11,7 @@
 .form__input {
   display: block;
   width: 100%;
+  min-height: 60px;
   box-sizing: border-box;
   padding: 15px 20px;
   margin: 8px 0 32px;
@@ -20,6 +21,7 @@
 
 .form__label {
   display: flex;
+  flex-direction: column;
   font-family: 'Inter', 'Arial', sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -30,7 +32,8 @@
 .form__button {
   width: 100%;
   border: none;
-  background-color: #3F96F3;
+  background-color: #1878dc;
+  color: white;
   padding: 20px 0;
   border-radius: 4px;
   margin-bottom: 32px;
@@ -55,6 +58,7 @@
 
 .form__label_type_checkbox {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   gap: 12px;
   font-family: 'Inter', 'Arial', sans-serif;
